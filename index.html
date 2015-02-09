@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<div id="wr" class="home">
+    <form action="/">
+        <h1>Форма заявки</h1>
+		<div id="form_ok">заявка отправлена!</div>
+        <table>
+            <caption>заполните пожалуйста предложенную форму заявки.</caption>
+            <tr class="block">
+                <td class="first"><label for="fio">Фамилия</label></td>
+                <td class="second"><input id="fio" class="lat2ru" type="text" name="fio"/></td>
+                <td class="three"><div></div></td>
+                <td class="error"><div></div></td>
+            </tr>
+            <tr class="block">
+                <td class="first"><label for="name">Имя</label></td>
+                <td class="second"><input id="name" class="lat2ru" type="text" name="name" /></td>
+                <td class="three"><div></div></td>
+                <td class="error"><div></div></td>
+            </tr>
+            <tr class="block">
+                <td class="first"><label for="surname">Отчество</label></td>
+                <td class="second"><input id="surname" class="lat2ru" type="text" name="surname"/></td>
+                <td class="three"><div></div></td>
+                <td class="error"><div></div></td>
+            </tr>
+            <tr class="block">
+                <td class="first"><label for="tel">Контактный телефон</label></td>
+                <td class="second"><input id="tel" type="text" name="tel"/></td>
+                <td class="three"><div></div></td>
+                <td class="error"><div></div></td>
+            </tr>
+            <tr class="block">
+                <td class="first"><label for="email">Электронная почта</label></td>
+                <td class="second"><input id="email" type="text" name="email"/></td>
+                <td class="three"><div></div></td>
+                <td class="error"><div></div></td>
+            </tr>
+            <tr class="block">
+                <td class="first"><label for="passport">Серия и номер паспорта</label></td>
+                <td class="second"><input id="passport" type="text" name="passport"/></td>
+                <td class="three"><div></div></td>
+                <td class="error"><div></div></td>
+            </tr>
+            <tr class="block">
+                <td class="first"><label for="output">Кем выдан</label></td>
+                <td class="second"><input id="output" class="lat2ru" type="text" name="output"/></td>
+                <td class="three"><div></div></td>
+                <td class="error"><div></div></td>
+            </tr>
+            <tr class="block">
+                <td class="first"><label for="data_output">Дата выдачи</label></td>
+                <td colspan="2" class="second"><input id="data_output" type="text" name="data_output"/>
+                    <label for="kod1">Код подразделения</label>
+                    <input id="kod1" type="text" name="kod1"/> | <input id="kod2" type="text" name="kod2"/>
+                </td>
+                <td class="error"><div></div></td>
+            </tr>
+            <tr class="block">
+                <td class="first"><label for="place">Место рождения</label></td>
+                <td class="second"><input id="place" class="lat2ru" type="text" name="place"/></td>
+                <td class="three"><div></div></td>
+                <td class="error"><div></div></td>
+            </tr>
+            <tr class="block">
+                <td class="first"></td>
+                <td class="second">
+                    <div>
+                        <input id="confirm" type="checkbox" name="confirm" value="true"/><label for="confirm">Я на все согласен</label>
+                    </div>
+                </td>
+                <td class="three"><div></div></td>
+                <td class="error"><div></div></td>
+            </tr>
+            <tr>
+                <td class="first"></td>
+                <td class="second"><div id="send">Подтвердить</div></td>
+                <td class="three"><div id="reset">Сброс</div></td>
+                <td class="error"><a id="list" href="/view.php">Заявки</a></td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

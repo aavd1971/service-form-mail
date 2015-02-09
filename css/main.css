@@ -1,0 +1,45 @@
+*{margin:0;padding: 0;font:10px Arial;color:#5d5d5d;}
+
+#wr{margin: 0 auto;}
+#wr.home{width:900px;}
+#wr.view{width:1200px;}
+
+form{overflow: hidden;float: left;padding:20px 5px;border:1px solid #b2b2b2;}
+form #inner{}
+
+table{border-spacing: 15px;_width: 100%;}
+td.first{width:100px;text-align: right;padding-right: 0px;}
+td.second{width: 100px;}
+td.three div{width: 275px;}
+.block td.error{display:none;border:1px solid red;color:red;padding-left:5px;_text-align: center;}
+td.error div{width: 100px;}
+input{width:225px;padding: 10px;border-radius: 3px;border:1px solid #b2b2b2;}
+input#confirm{float:left;width:auto;margin-right: 10px;}
+.second > div{padding: 20px 0;}
+input#data_output{width:140px;margin-right: 40px;}
+input#kod1,input#kod2{width:80px;margin:0 5px;}
+#send,#reset,#list{width:136px;font-size: 14px;text-align:center;text-transform: uppercase;background: #0d4b8c;color:white;border-radius: 5px;padding: 12px 55px;cursor: pointer;}
+#send:hover{background: lightblue;}
+#reset{width: auto;background: lightcoral;}
+#reset:hover{background: lightsalmon;}
+#list{width: auto;color: white;text-decoration: none;font-size: 14px;}
+#list:hover{background: lightskyblue;}
+
+#res{border-collapse: collapse;}
+#res,#res tr,#res td,#res th{border: 1px solid #b2b2b2;}
+#res td,#res th{padding: 10px;}
+#res th{background: lightgray;font-weight: bold;text-align: center;color: white;}
+#res tr{background: white;}
+#res tr:nth-child(2n){background: lightblue;color:white;}
+#res tr:hover{background: lightgoldenrodyellow;}
+
+h1{font-size: 20px;text-align: center;}
+
+#form_rs{padding: 10px;position: fixed;top:0;left:0;background: rgba(255,255,255,0.5);border-radius: 3px;box-shadow: 1px 1px 6px black;}
+#form_rs:hover{text-decoration: none;}
+
+#form_ok{display:none;position: absolute;left:50%;top:50%;_width:150px;_height:150px;text-align:center;
+    margin-left:-75px;background: lightgray;border-radius: 5px;box-shadow: 0 0 20px black;
+font-size: 14px;color:white;padding: 50px;}
+
+.clear{clear: both;}
